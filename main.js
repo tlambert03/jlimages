@@ -8,16 +8,6 @@
 // Categories: architecture, food, portrait, wedding, travel, golf
 
 const GALLERY_DATA = [
-  // Architecture
-  { src: "images/JosephLambert9594797928.jpg", alt: "Glass-roofed corridor with pendant lighting",     category: "architecture" },
-  { src: "images/JosephLambert9594797929.jpg", alt: "French doors opening to lakeside view",           category: "architecture" },
-  { src: "images/JosephLambert9594797930.jpg", alt: "New England shingle-style estate exterior",       category: "architecture" },
-  { src: "images/JosephLambert9594797932.jpg", alt: "Bay windows overlooking pool and waterfront",     category: "architecture" },
-  { src: "images/JosephLambert9594797938.jpg", alt: "Waterfront home from the dock",                   category: "architecture" },
-  { src: "images/JosephLambert9594798000.jpg", alt: "Nautical wallpaper bathroom interior",            category: "architecture" },
-  { src: "images/JosephLambert9594916639.jpg", alt: "Grand lobby with spiral staircase",               category: "architecture" },
-  { src: "images/JosephLambert95941978728.jpg", alt: "Commercial interior with wood columns",          category: "architecture" },
-
   // Food & Drink
   { src: "images/JosephLambert9594909825.jpg",  alt: "Craft cocktail trio on the bar",                 category: "food" },
   { src: "images/JosephLambert95941283848.jpg",  alt: "Chocolate dessert with red wine pairing",       category: "food" },
@@ -27,6 +17,16 @@ const GALLERY_DATA = [
   { src: "images/JosephLambert95942400923.jpg",  alt: "Pasta twirl on a fork",                         category: "food" },
   { src: "images/JosephLambert95942400925.jpg",  alt: "Sliced steak with roasted potatoes",            category: "food" },
   { src: "images/JosephLambert95942459076.jpg",  alt: "Spiced chicken in cast iron skillet",           category: "food" },
+
+  // Architecture
+  { src: "images/JosephLambert9594797928.jpg", alt: "Glass-roofed corridor with pendant lighting",     category: "architecture" },
+  { src: "images/JosephLambert9594797929.jpg", alt: "French doors opening to lakeside view",           category: "architecture" },
+  { src: "images/JosephLambert9594797930.jpg", alt: "New England shingle-style estate exterior",       category: "architecture" },
+  { src: "images/JosephLambert9594797932.jpg", alt: "Bay windows overlooking pool and waterfront",     category: "architecture" },
+  { src: "images/JosephLambert9594797938.jpg", alt: "Waterfront home from the dock",                   category: "architecture" },
+  { src: "images/JosephLambert9594798000.jpg", alt: "Nautical wallpaper bathroom interior",            category: "architecture" },
+  { src: "images/JosephLambert9594916639.jpg", alt: "Grand lobby with spiral staircase",               category: "architecture" },
+  { src: "images/JosephLambert95941978728.jpg", alt: "Commercial interior with wood columns",          category: "architecture" },
 
   // Portraits
   { src: "images/JosephLambert95941128525.jpg", alt: "Studio portrait — natural light headshot",       category: "portrait" },
