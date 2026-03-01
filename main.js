@@ -194,15 +194,22 @@ navLinks.querySelectorAll("a").forEach(a => {
   a.addEventListener("click", () => navLinks.classList.remove("open"));
 });
 
-// ---- Contact form (basic) ----
+// ---- Contact form ----
 document.getElementById("contact-form").addEventListener("submit", (e) => {
   e.preventDefault();
-  // For a free static site, you can connect this to:
-  //   - Formspree (formspree.io) — add action="https://formspree.io/f/YOUR_ID" to the form
-  //   - Netlify Forms — add netlify attribute to the form tag
-  //   - EmailJS (emailjs.com)
-  alert("Thanks for your message! I'll be in touch soon.");
-  e.target.reset();
+  const form = e.target;
+  fetch(form.action, {
+    method: "POST",
+    body: new FormData(form),
+    headers: { Accept: "application/json" },
+  }).then(res => {
+    if (res.ok) {
+      form.reset();
+      alert("Thanks for your message! I'll be in touch soon.");
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  }).catch(() => alert("Something went wrong. Please try again."));
 });
 
 // ---- Init ----
